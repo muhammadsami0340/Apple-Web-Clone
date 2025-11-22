@@ -1,0 +1,557 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 12.2px;
+}
+
+.right-logo{
+    width: 50%;
+    text-align: left;
+    justify-content: flex-end;
+}
+
+.left-logo{
+    width: 50%;
+    text-align: left;
+    justify-content: start;
+    gap: 25px;
+}
+
+.bar{
+    display: none;
+}
+
+ul{
+    font-size: small;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.list{
+    width: 100%;
+}
+
+.img{
+  background-image: url("./assets/hero_holiday_2025__gg4r7ioqlj2i_largetall_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding: 50px 12px;
+  gap: 16px;
+  color: #171717;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img > h1{
+  line-height: 10px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.img > h2{
+  line-height: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.img button{
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  background-color: #0071e3;
+  padding: 12px 24px;
+}
+
+.img-01{
+  background-image: url(./assets/Lar/hero_iphone_17_pro__bknyzxfk2agi_largetall_2x.jpg);
+  justify-content: flex-start;
+  color: white;
+}
+
+.img-01 button:nth-child(2){
+  border: 2px solid #0071e3;
+  background-color: transparent;
+  color: #0071e3;
+  margin-left: 10px;
+}
+
+.img-01 button:nth-child(2):hover{
+  background-color: #0071e3;
+  color: white;
+}
+
+.img-1{
+  background-image: url(./assets/Lar/hero_iphone_air__0gxyavihpiqu_largetall_2x.jpg);
+  color: #171717;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 490px);
+  gap: 12px;
+  padding: 12px;
+}
+
+.img-2{
+  background-image: url(./assets/Lar/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+.img-3{
+  background-image: url(./assets/Lar/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+.img-4{
+  background-image: url(./assets/Lar/promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+.img-5{
+  background-image: url(./assets/Lar/promo_ipad__fioegapg12qi_large.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+.img-6{
+  background-image: url(./assets/Lar/promo_iphone_tradein__bugw15ka691e_large.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+.img-7{
+  background-image: url(./assets/Lar/promo_apple_card__5cm7draujpey_large.jpg);
+  color: #171717;
+  gap: 8px;
+  height: auto;
+}
+
+.scroll-one{
+  height: 75vh;
+  width: 100vw;
+  background-image: url(./Assets/Carousel\(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-two{
+  height: 31vh;
+  width: 100vw;
+  background-image: url(./Assets/Carousel\(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.text{
+  width: 52vw;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 300;
+  color: #5c6264;
+  border-bottom: 1px solid lightgrey;
+}
+
+.footm{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  color: #5c6264;
+  line-height: 30px;
+  gap: 68px;
+}
+
+.li-h{
+  color: #757575; 
+}
+
+div ul{
+  list-style-type: none;
+}
+
+.pare{
+  display: flex;
+  justify-content: center;
+  color: #5c6264;
+}
+
+.last{
+  width: 52vw;
+  font-size: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+.last span{
+  text-decoration: underline;
+  color: rgb(0, 102, 255);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #5c6264;
+  padding: 12px;
+}
+
+.footer a{
+  color: #5c6264;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.copy-p{
+  margin-right: 127px;
+}
+
+.country-p{
+  margin-left: 127px;
+}
+
+@media screen and (width: 1440px) {
+.right-logo{
+    width: 25%;
+}
+
+.left-logo{
+    width: 25%;
+    gap: 25px;
+}
+
+}
+
+@media (max-width: 1400px) {
+  .img > h1{ font-size: 38px; }
+  .img > h2{ font-size: 22px; }
+}
+
+@media screen and (width: 1024px) {
+.right-logo{
+    width: 2.7%;
+}
+
+.left-logo{
+    width: 8%;
+    gap: 22px;
+}
+
+ul{
+    gap: 35px
+}
+
+.footm{
+  margin: 10px 0px;
+  gap: 50px;
+}
+
+}
+
+@media (max-width: 900px) {
+  .img > h1{
+    font-size: 28px;
+  }
+  .img > h2{
+    font-size: 16px;
+  }
+  .img button{
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .img{
+    height: 65vh;
+    padding: 40px 8px;
+  }
+
+  .img > h1{ font-size: 32px; }
+  .img > h2{ font-size: 20px; }
+
+  .img-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+    nav ul{
+    display: none !important;
+    gap: 0px;
+  }
+
+  .left-logo .bar{
+    display: block;
+  }
+
+  nav{
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .right-logo{
+    margin-right: auto;
+  }
+
+  .left-logo{
+    gap: 20px;
+    width: auto;
+  }
+
+  .img-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 490px);
+    padding: 5px;
+  }
+
+  .img-01{
+    background-image: url(./assets/Med/hero_iphone_17_pro__bknyzxfk2agi_small_2x.jpg);
+  }
+  .img-1{
+    background-image: url(./assets/Med/hero_iphone_air__0gxyavihpiqu_small_2x.jpg);
+  }
+  .img-2{
+    background-image: url(./assets/Med/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);
+  }
+  .img-3{
+    background-image: url(./assets/Med/promo_ipad_air_avail__6i02t7nujr62_small_2x.jpg);
+  }
+  .img-4{
+    background-image: url(./assets/Med/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+  }
+  .img-5{
+    background-image: url(./assets/Med/promo_ipad__fioegapg12qi_medium_2x.jpg);
+  }
+  .img-6{
+    background-image: url(./assets/Med/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+  }
+  .img-7{
+    background-image: url(./assets/Med/promo_apple_card__5cm7draujpey_medium_2x.jpg);
+  }
+
+  .footm{
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .copy-p,
+  .country-p{
+    margin: 0 !important;
+  }
+
+  .footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer a{
+    padding: 8px;
+    display: inline-block;
+  }
+}
+
+@media screen and (width: 768px) {
+.right-logo{
+    width: 2.7%;
+    font-size: 20px;
+}
+
+.left-logo{
+    width: 17%;
+    font-size: 20px;
+    gap: 22px;
+}
+
+.li-1{
+    display: none !important;
+}
+
+.bar{
+    display: block;
+}
+
+.footm{
+  gap: 80px;
+}
+
+.text{
+  width: 72vw;
+}
+
+.scroll-one{
+  height: 50vh;
+  background-position: center;
+}
+
+.scroll-two{
+  height: 15vh;
+}
+
+}
+
+@media (max-width: 600px) {
+  .img{
+    height: 60vh;
+    padding: 30px 5px;
+  }
+
+  .img > h1{ font-size: 28px; }
+  .img > h2{ font-size: 18px; }
+  .img button{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .img-container{
+    padding: 6px;
+    gap: 10px;
+  }
+
+  .scroll-one,
+  .scroll-two{
+    background-size: contain;
+    background-position: center;
+    height: 45vh;
+  }
+
+  .text,
+  .last{
+    width: 100vw;
+    font-size: 14px;
+  }
+
+  .footm{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footm ul{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 425px) {
+.right-logo{
+    width: 5%;
+    font-size: 20px;
+}
+
+.left-logo{
+    width: 28%;
+    font-size: 20px;
+    gap: 25px;
+}
+
+.li-1{
+    display: none !important;
+}
+
+.bar{
+    display: block;
+}
+
+.footm{
+  gap: 10px;
+}
+
+.text{
+  width: 70vw;
+}
+
+.scroll-one{
+  height: 25vh;
+  background-position: center;
+}
+
+.scroll-two{
+  height: 8vh;
+}
+
+.last{
+  width: 80vw;
+}
+
+
+}
+
+@media (max-width: 400px) {
+  .img > h1{ font-size: 24px; }
+  .img > h2{ font-size: 16px; }
+  .img button{
+    width: 90%;
+    padding: 12px 0;
+  }
+}
+
+@media screen and (width: 375px) {
+.right-logo{
+    width: 5%;
+    font-size: 22px;
+}
+
+.left-logo{
+    width: 32%;
+    font-size: 18px;
+    gap: 25px;
+}
+
+.li-1{
+    display: none !important;
+}
+
+.bar{
+    display: block;
+}
+
+}
+
+@media screen and (width: 320px) {
+.right-logo{
+    width: 7.5%;
+    font-size: 22px;
+}
+
+.left-logo{
+    width: 40%;
+    font-size: 18px;
+    gap: 28px;
+}
+
+.li-1{
+    display: none !important;
+}
+
+.bar{
+    display: block;
+}
+
+}
