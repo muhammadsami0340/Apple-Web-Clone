@@ -44,7 +44,7 @@ ul{
 }
 
 .img{
-  background-image: url("./assets/hero_holiday_2025__gg4r7ioqlj2i_largetall_2x.jpg");
+  -webkit-background-image: url("./assets/hero_holiday_2025__gg4r7ioqlj2i_largetall_2x.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
